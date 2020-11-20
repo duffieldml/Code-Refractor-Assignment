@@ -1,0 +1,164 @@
+/* This makes it so there is no border around the webpage */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* This sets the color, font color, background color, font style, and size of the header */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* Sets the background color of website */
+body {
+    background-color: #d9dcd6;
+}
+
+/* Sets the font size for Horiseon */
+h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* Sets the color for seo in Horiseon in the header */
+h1 .seo {
+    color: #d9dcd6;
+}
+
+/* Specifies loaction for the 3 buttons in the header.
+Also sets the font size and style for the buttons */
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* Makes it so there are no styling types for the list in the header */
+.header div ul {
+    list-style-type: none;
+}
+
+/* Sets the spacing between the 3 buttons in the header */
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* Sets the color for the 3 buttons in the header */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Specifies the image for the main background image.
+Also sets the height, width, location, and spacing between the image and
+the content underneath. */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Sets the font size for the all the <P> tags */
+p {
+    font-size: 16px;
+}
+
+/* For the div class=content, this sets the pictures that need to
+be on the left to the left */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* For the div class=content, this sets the pictures that need to
+be on the right to the right */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* This sets the width and margin for div class=content */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Puts a margin between the class of contents. It also sets the text style,
+color, and the background color. */
+.contents {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* This sets the height of all images in the class = contents to 200px */
+.contents img {
+    max-height: 200px;
+}
+
+/* This sets the font size to 36px for the h2 tags */
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* This sets the background color, height, width, and location for 
+for the class = benefits */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* This sets the the margin and font color for everything in the 
+class = benefits-2 */
+.benefit-2 {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* This sets the width and margins for all the images in class = benefits-2 */
+.benefit-2 img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* This centers and puts a margin of 10px below each h3 tag */
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* This centers and sets the font style for the footer.
+It also makes the background of the footer clear */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* This sets the font size to 20px for the h4 tag */
+h4 {
+    font-size: 20px;
+}
